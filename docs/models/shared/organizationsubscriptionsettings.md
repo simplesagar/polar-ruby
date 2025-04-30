@@ -1,0 +1,10 @@
+# OrganizationSubscriptionSettings
+
+
+## Fields
+
+| Field                                                                                                 | Type                                                                                                  | Required                                                                                              | Description                                                                                           |
+| ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `allow_multiple_subscriptions`                                                                        | *T::Boolean*                                                                                          | :heavy_check_mark:                                                                                    | N/A                                                                                                   |
+| `allow_customer_updates`                                                                              | *T::Boolean*                                                                                          | :heavy_check_mark:                                                                                    | N/A                                                                                                   |
+| `proration_behavior`                                                                                  | [Models::Shared::SubscriptionProrationBehavior](../../models/shared/subscriptionprorationbehavior.md) | :heavy_check_mark:                                                                                    | N/A                                                                                                   |

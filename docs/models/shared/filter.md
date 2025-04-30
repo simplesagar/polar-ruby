@@ -1,0 +1,9 @@
+# Filter
+
+
+## Fields
+
+| Field                                                                                                   | Type                                                                                                    | Required                                                                                                | Description                                                                                             |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| `conjunction`                                                                                           | [Models::Shared::FilterConjunction](../../models/shared/filterconjunction.md)                           | :heavy_check_mark:                                                                                      | N/A                                                                                                     |
+| `clauses`                                                                                               | T::Array<[T.any(Models::Shared::FilterClause, Models::Shared::Filter)](../../models/shared/clauses.md)> | :heavy_check_mark:                                                                                      | N/A                                                                                                     |

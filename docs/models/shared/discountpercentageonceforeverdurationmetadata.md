@@ -1,0 +1,2 @@
+# DiscountPercentageOnceForeverDurationMetadata
+

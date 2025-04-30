@@ -1,0 +1,4 @@
+# CustomerPortalCustomersAddPaymentMethodResponseCustomerPortalCustomersAddPaymentMethod
+
+Payment method created.
+

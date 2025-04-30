@@ -1,0 +1,15 @@
+# OAuth2ClientPublic
+
+
+## Fields
+
+| Field                                                                | Type                                                                 | Required                                                             | Description                                                          |
+| -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `created_at`                                                         | [Date](https://ruby-doc.org/stdlib-2.6.1/libdoc/date/rdoc/Date.html) | :heavy_check_mark:                                                   | Creation timestamp of the object.                                    |
+| `modified_at`                                                        | [Date](https://ruby-doc.org/stdlib-2.6.1/libdoc/date/rdoc/Date.html) | :heavy_check_mark:                                                   | Last modification timestamp of the object.                           |
+| `client_id`                                                          | *::String*                                                           | :heavy_check_mark:                                                   | N/A                                                                  |
+| `client_name`                                                        | *::String*                                                           | :heavy_check_mark:                                                   | N/A                                                                  |
+| `client_uri`                                                         | *::String*                                                           | :heavy_check_mark:                                                   | N/A                                                                  |
+| `logo_uri`                                                           | *::String*                                                           | :heavy_check_mark:                                                   | N/A                                                                  |
+| `tos_uri`                                                            | *::String*                                                           | :heavy_check_mark:                                                   | N/A                                                                  |
+| `policy_uri`                                                         | *::String*                                                           | :heavy_check_mark:                                                   | N/A                                                                  |

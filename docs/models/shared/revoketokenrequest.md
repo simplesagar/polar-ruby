@@ -1,0 +1,11 @@
+# RevokeTokenRequest
+
+
+## Fields
+
+| Field                                                                            | Type                                                                             | Required                                                                         | Description                                                                      |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| `token`                                                                          | *::String*                                                                       | :heavy_check_mark:                                                               | N/A                                                                              |
+| `token_type_hint`                                                                | [T.nilable(Models::Shared::TokenTypeHint)](../../models/shared/tokentypehint.md) | :heavy_minus_sign:                                                               | N/A                                                                              |
+| `client_id`                                                                      | *::String*                                                                       | :heavy_check_mark:                                                               | N/A                                                                              |
+| `client_secret`                                                                  | *::String*                                                                       | :heavy_check_mark:                                                               | N/A                                                                              |

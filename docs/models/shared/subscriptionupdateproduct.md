@@ -1,0 +1,9 @@
+# SubscriptionUpdateProduct
+
+
+## Fields
+
+| Field                                                                                                            | Type                                                                                                             | Required                                                                                                         | Description                                                                                                      |
+| ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `product_id`                                                                                                     | *::String*                                                                                                       | :heavy_check_mark:                                                                                               | Update subscription to another product.                                                                          |
+| `proration_behavior`                                                                                             | [T.nilable(Models::Shared::SubscriptionProrationBehavior)](../../models/shared/subscriptionprorationbehavior.md) | :heavy_minus_sign:                                                                                               | Determine how to handle the proration billing. If not provided, will use the default organization setting.       |

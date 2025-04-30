@@ -1,0 +1,12 @@
+# LicenseKeyUpdate
+
+
+## Fields
+
+| Field                                                                                  | Type                                                                                   | Required                                                                               | Description                                                                            |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| `status`                                                                               | [T.nilable(Models::Shared::LicenseKeyStatus)](../../models/shared/licensekeystatus.md) | :heavy_minus_sign:                                                                     | N/A                                                                                    |
+| `usage`                                                                                | *T.nilable(::Integer)*                                                                 | :heavy_minus_sign:                                                                     | N/A                                                                                    |
+| `limit_activations`                                                                    | *T.nilable(::Integer)*                                                                 | :heavy_minus_sign:                                                                     | N/A                                                                                    |
+| `limit_usage`                                                                          | *T.nilable(::Integer)*                                                                 | :heavy_minus_sign:                                                                     | N/A                                                                                    |
+| `expires_at`                                                                           | [Date](https://ruby-doc.org/stdlib-2.6.1/libdoc/date/rdoc/Date.html)                   | :heavy_minus_sign:                                                                     | N/A                                                                                    |

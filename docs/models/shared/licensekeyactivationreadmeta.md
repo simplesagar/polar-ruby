@@ -1,0 +1,2 @@
+# LicenseKeyActivationReadMeta
+

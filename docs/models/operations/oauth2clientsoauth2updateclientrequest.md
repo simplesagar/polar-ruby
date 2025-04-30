@@ -1,0 +1,9 @@
+# Oauth2ClientsOauth2UpdateClientRequest
+
+
+## Fields
+
+| Field                                                                                                     | Type                                                                                                      | Required                                                                                                  | Description                                                                                               |
+| --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| `client_id`                                                                                               | *::String*                                                                                                | :heavy_check_mark:                                                                                        | N/A                                                                                                       |
+| `o_auth2_client_configuration_update`                                                                     | [Models::Shared::OAuth2ClientConfigurationUpdate](../../models/shared/oauth2clientconfigurationupdate.md) | :heavy_check_mark:                                                                                        | N/A                                                                                                       |

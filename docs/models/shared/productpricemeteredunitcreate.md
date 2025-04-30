@@ -1,0 +1,14 @@
+# ProductPriceMeteredUnitCreate
+
+Schema to create a metered price with a fixed unit price.
+
+
+## Fields
+
+| Field                                                                                             | Type                                                                                              | Required                                                                                          | Description                                                                                       |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| `amount_type`                                                                                     | *::String*                                                                                        | :heavy_check_mark:                                                                                | N/A                                                                                               |
+| `meter_id`                                                                                        | *::String*                                                                                        | :heavy_check_mark:                                                                                | The ID of the meter associated to the price.                                                      |
+| `price_currency`                                                                                  | *T.nilable(::String)*                                                                             | :heavy_minus_sign:                                                                                | The currency. Currently, only `usd` is supported.                                                 |
+| `unit_amount`                                                                                     | [T.any(::Float, ::String)](../../models/shared/unitamount.md)                                     | :heavy_check_mark:                                                                                | The price per unit in cents. Supports up to 12 decimal places.                                    |
+| `cap_amount`                                                                                      | *T.nilable(::Integer)*                                                                            | :heavy_minus_sign:                                                                                | Optional maximum amount in cents that can be charged, regardless of the number of units consumed. |

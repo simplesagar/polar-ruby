@@ -1,0 +1,14 @@
+# S3FileUploadPart
+
+
+## Fields
+
+| Field                                                                | Type                                                                 | Required                                                             | Description                                                          |
+| -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `number`                                                             | *::Integer*                                                          | :heavy_check_mark:                                                   | N/A                                                                  |
+| `chunk_start`                                                        | *::Integer*                                                          | :heavy_check_mark:                                                   | N/A                                                                  |
+| `chunk_end`                                                          | *::Integer*                                                          | :heavy_check_mark:                                                   | N/A                                                                  |
+| `checksum_sha256_base64`                                             | *T.nilable(::String)*                                                | :heavy_minus_sign:                                                   | N/A                                                                  |
+| `url`                                                                | *::String*                                                           | :heavy_check_mark:                                                   | N/A                                                                  |
+| `expires_at`                                                         | [Date](https://ruby-doc.org/stdlib-2.6.1/libdoc/date/rdoc/Date.html) | :heavy_check_mark:                                                   | N/A                                                                  |
+| `headers`                                                            | T::Hash[Symbol, *::String*]                                          | :heavy_minus_sign:                                                   | N/A                                                                  |

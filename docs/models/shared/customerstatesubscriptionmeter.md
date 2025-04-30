@@ -1,0 +1,16 @@
+# CustomerStateSubscriptionMeter
+
+Current consumption and spending for a subscription meter.
+
+
+## Fields
+
+| Field                                                                | Type                                                                 | Required                                                             | Description                                                          | Example                                                              |
+| -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `created_at`                                                         | [Date](https://ruby-doc.org/stdlib-2.6.1/libdoc/date/rdoc/Date.html) | :heavy_check_mark:                                                   | Creation timestamp of the object.                                    |                                                                      |
+| `modified_at`                                                        | [Date](https://ruby-doc.org/stdlib-2.6.1/libdoc/date/rdoc/Date.html) | :heavy_check_mark:                                                   | Last modification timestamp of the object.                           |                                                                      |
+| `id`                                                                 | *::String*                                                           | :heavy_check_mark:                                                   | The ID of the object.                                                |                                                                      |
+| `consumed_units`                                                     | *::Float*                                                            | :heavy_check_mark:                                                   | The number of consumed units so far in this billing period.          | 25                                                                   |
+| `credited_units`                                                     | *::Integer*                                                          | :heavy_check_mark:                                                   | The number of credited units so far in this billing period.          | 100                                                                  |
+| `amount`                                                             | *::Integer*                                                          | :heavy_check_mark:                                                   | The amount due in cents so far in this billing period.               | 0                                                                    |
+| `meter_id`                                                           | *::String*                                                           | :heavy_check_mark:                                                   | The ID of the meter.                                                 | d498a884-e2cd-4d3e-8002-f536468a8b22                                 |
